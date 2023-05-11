@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+
+
+node_modules/
+*.log
+
+src/
+
+.prettierrc
+.prettieriignore
+
+tsconfig.json

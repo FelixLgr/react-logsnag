@@ -1,0 +1,43 @@
+{
+  "name": "logsnag-react",
+  "version": "1.0.0",
+  "description": "LogSnag tracker for react projects",
+  "scripts": {
+    "build": "tsc --declaration",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "logsnag": "^0.1.8",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "logsnag": ">= 0.1.8",
+    "react": ">= 16.8.0",
+    "react-dom": "^17.0.0"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "Félix Legrelle",
+  "homepage": "https://github.com/felixlgr/logsnag-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixlgr/logsnag-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felixlgr/logsnag-react/issues"
+  },
+  "keywords": [
+    "logsnag",
+    "react",
+    "tracking",
+    "analytics"
+  ]
+}
