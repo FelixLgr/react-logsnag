@@ -8,18 +8,19 @@ export interface LogSnagContextValue {
 export interface LogSnagEvent {
   channel: string
   event: string
-  description: string
-  icon: string
-  tags: {
-    [key: string]: string
+  description?: string
+  icon?: string
+  notify?: boolean
+  tags?: {
+    [key: string]: string | number | boolean
   }
-  notify: boolean
+  parser?: 'markdown' | 'text'
 }
 
 export interface LogSnagInsight {
   title: string
   value: string
-  icon: string
+  icon?: string
 }
 
 export interface LogSnagProviderProps {
