@@ -1,28 +1,7 @@
-import React, { createContext, useContext, ReactNode } from 'react';
+import React, { createContext, useContext, ReactNode } from 'react'
+import { LogSnagContextValue, LogSnagEvent, LogSnagInsight, LogSnagProviderProps } from './types'
 
 import { LogSnag } from 'logsnag'
-
-interface LogSnagContextValue {
-  logEvent: (eventData: LogSnagEvent) => Promise<void>
-  logInsight: (insightData: LogSnagInsight) => Promise<void>
-}
-
-interface LogSnagEvent {
-  channel: string
-  event: string
-  description: string
-  icon: string
-  tags: {
-    [key: string]: string
-  }
-  notify: boolean
-}
-
-interface LogSnagInsight {
-  title: string
-  value: string
-  icon: string
-}
 
 const LogSnagContext = createContext<LogSnagContextValue | undefined>(undefined)
 
@@ -32,12 +11,6 @@ export const useLogSnag = () => {
     throw new Error('useLogSnag must be used within a LogSnagProvider')
   }
   return context
-}
-
-interface LogSnagProviderProps {
-  token: string
-  project: string
-  children: ReactNode
 }
 
 export const LogSnagProvider: React.FC<LogSnagProviderProps> = ({ token, project, children }) => {
