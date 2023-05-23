@@ -1,6 +1,6 @@
 {
   "name": "react-logsnag",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "LogSnag tracker for react projects",
   "scripts": {
     "build": "tsc --declaration",
