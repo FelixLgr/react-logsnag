@@ -8,9 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        - Read all our documentation, especially the [README](https://github.com/FelixLgr/logsnag-react/blob/master/README.md). It may contain information that helps you solve your issue.
-        - Ensure your issue isn't already [reported](https://github.com/FelixLgr/logsnag-react/issues?utf8=%E2%9C%93&q=is%3Aissue).
-        - Ensure it isn't already fixed in the latest logsnag-react version.
+        - Read all our documentation, especially the [README](https://github.com/FelixLgr/react-logsnag/blob/master/README.md). It may contain information that helps you solve your issue.
+        - Ensure your issue isn't already [reported](https://github.com/FelixLgr/react-logsnag/issues?utf8=%E2%9C%93&q=is%3Aissue).
+        - Ensure it isn't already fixed in the latest react-logsnag version.
   - type: markdown
     attributes:
       value: '⚠️👆 Feel free to these instructions before submitting the issue 👆⚠️'

@@ -1,13 +1,13 @@
 <div align="center">
-  <a href="https://logsnag.com/?utm_source=github/felixlgr-logsnag-react&utm_medium=logo" target="_blank">
+  <a href="https://logsnag.com/?utm_source=github/felixlgr-react-logsnag&utm_medium=logo" target="_blank">
     <img src="https://logsnag.com/_next/static/media/logo-text.c9e33f2c.svg" alt="LogSnag" width="280" height="84">
   </a>
 </div>
 
 # Unofficial LogSnag React
 
-[![Package status](https://img.shields.io/npm/v/logsnag-react.svg)](https://www.npmjs.com/package/logsnag-react)
-[![License](https://img.shields.io/npm/l/logsnag-react.svg)](https://opensource.org/licenses/MIT)
+[![Package status](https://img.shields.io/npm/v/react-logsnag.svg)](https://www.npmjs.com/package/react-logsnag)
+[![License](https://img.shields.io/npm/l/react-logsnag.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Getting started
@@ -15,7 +15,7 @@
 ### Install
 
 ```bash
-yarn add logsnag-react
+yarn add react-logsnag
 ```
 
 ### Usage
@@ -25,7 +25,7 @@ First, wrap your application with the LogSnagProvider at the top level of your a
 
 ```tsx
 import React from 'react'
-import { LogSnagProvider } from 'logsnag-react'
+import { LogSnagProvider } from 'react-logsnag'
 
 const App: React.FC = () => (
   <LogSnagProvider token="your_token" project="your_project">
@@ -40,7 +40,7 @@ The useLogSnag hook provides access to two functions: logEvent and logInsight.
 
 ```tsx
 import React from 'react'
-import { useLogSnag } from 'logsnag-react'
+import { useLogSnag } from 'react-logsnag'
 
 const YourComponent: React.FC = () => {
   const { logEvent, logInsight } = useLogSnag()

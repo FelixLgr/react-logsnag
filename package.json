@@ -1,6 +1,6 @@
 {
-  "name": "logsnag-react",
-  "version": "1.0.2",
+  "name": "react-logsnag",
+  "version": "1.0.0",
   "description": "LogSnag tracker for react projects",
   "scripts": {
     "build": "tsc --declaration",
@@ -26,13 +26,13 @@
   ],
   "license": "MIT",
   "author": "Félix Legrelle",
-  "homepage": "https://github.com/felixlgr/logsnag-react#readme",
+  "homepage": "https://github.com/felixlgr/react-logsnag#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felixlgr/logsnag-react.git"
+    "url": "git+https://github.com/felixlgr/react-logsnag.git"
   },
   "bugs": {
-    "url": "https://github.com/felixlgr/logsnag-react/issues"
+    "url": "https://github.com/felixlgr/react-logsnag/issues"
   },
   "keywords": [
     "logsnag",
